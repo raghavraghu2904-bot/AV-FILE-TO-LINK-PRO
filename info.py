@@ -13,8 +13,8 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')  # Telegram Bot Token
 # 👑, Channels & Logs
 BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002977930997'))  # File storage channel
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1002944421295'))  # General log channel
-PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", ''))  # Premium user actions log
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', ''))  # Verified user actions log
+PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1002944421295'))  # Premium user actions log
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1002944421295'))  # Verified user actions log
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", ""))
 
 # add admin IDs 11111 2222 3333 and add auth channel IDs -100XXX -100XXX -100XXX
@@ -47,8 +47,8 @@ SHORTLINK_URL = environ.get('SHORTLINK_URL', 'indianshortner.com')  # Shortener 
 SHORTLINK_API = environ.get('SHORTLINK_API', '99e70c093220b863e8b4dd9edcc06cfe46847359')  # API key for shortlink
 
 # 💾 MongoDB Connection Information
-DB_URL = environ.get('DATABASE_URI', "mongodb+srv://kumarraghav3197_db_user:EO1Dqar7aoIi8w5G@cluster0.pdtfyls.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # MongoDB connection URI
-DB_NAME = environ.get('DATABASE_NAME', "")  # MongoDB database name
+DB_URL = environ.get('DATABASE_URI', "mongodb+srv://raghavraghu2904:fmOgdlRsqSfNrtoE@cluster0.j4kfqut.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # MongoDB connection URI
+DB_NAME = environ.get('DATABASE_NAME', "raghavraghu2904")  # MongoDB database name
 
 # 📸 all Media (Images)
 QR_CODE = environ.get('QR_CODE', '')  # QR Code image
